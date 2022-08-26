@@ -1,0 +1,12 @@
+-- tienda.tienda definition
+
+CREATE TABLE `tienda` (
+  `codigo` varchar(100) NOT NULL,
+  `nombre` varchar(100) DEFAULT NULL,
+  `cantidad` int DEFAULT NULL,
+  `descripcion` varchar(100) DEFAULT NULL,
+  `categoria` varchar(100) DEFAULT NULL,
+  `precioVenta` int DEFAULT NULL,
+  `costoUnitario` int DEFAULT NULL,
+  PRIMARY KEY (`codigo`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

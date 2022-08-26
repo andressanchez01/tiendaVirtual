@@ -1,0 +1,9 @@
+-- tienda.clientes definition
+
+CREATE TABLE `clientes` (
+  `nombreCliente` varchar(100) DEFAULT NULL,
+  `cedulaCliente` int DEFAULT NULL,
+  `correoCliente` varchar(100) DEFAULT NULL,
+  `direccionCliente` varchar(100) DEFAULT NULL,
+  `telefonoCliente` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
