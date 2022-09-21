@@ -50,15 +50,15 @@ public class Principal {
             System.out.println(ax.toString());
      */  
     
-        categoria a = new categoria();
-        a.setIdCategoria(3);
+        vendedor a = new vendedor();
+     /**   a.setIdCategoria(3);
         a.setNombreCategoria("Trabajo");
         a.setTipoCategoria("Herramientas");
         a.guardarCategoria();
-    
+    */
      //   categoria a = new categoria();
-        List<categoria> categorias = a.consultarCategoria();
-        for (categoria ax : categorias) {
+        List<vendedor> vendedores = a.consultarVendedor();
+        for (vendedor ax : vendedores) {
             System.out.println(ax.toString());
         }
     }

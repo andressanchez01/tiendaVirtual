@@ -23,7 +23,7 @@ public class ConexionBD {
     public ConexionBD() {
         DB_driver = "com.mysql.cj.jdbc.Driver";
         host = "localhost:3306";
-        db = "tiendavirtual";
+        db = "tienda";
         url = "jdbc:mysql://" + host + "/" + db+"?serverTimezone=UTC"; 		//URL DB
         username = "root";                      			//usuario base de datos global 
         password = "root";
